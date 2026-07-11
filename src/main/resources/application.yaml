@@ -2,8 +2,8 @@ spring:
   mail:
     host: smtp.gmail.com # Certifique-se de adicionar o host se for usar o Gmail
     port: 587
-    username: #digitar email
-    password: #digitar seenha email
+    username: agendadortarefa@gmail.com
+    password: pvueraxagwyyvdni
     protocol: smtp
     properties:
       mail:
@@ -20,7 +20,7 @@ thymeleaf:
 
 envio:
   email:
-    remetente: #digitar email
+    remetente: agendadortarefa@gmail.com
     nomeRemetente: 'Javanauta'
 
 server:
